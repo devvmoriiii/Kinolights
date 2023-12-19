@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+body {
+  background-color: #101323;
+  font-family: 'Encode Sans', sans-serif;
+  max-width: 100%;
+}
+
+
+

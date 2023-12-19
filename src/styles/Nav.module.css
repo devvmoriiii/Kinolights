@@ -1,0 +1,21 @@
+.nav {
+  background-color: #000;
+  min-width: 100%;
+  min-height: 100px;
+}
+
+.optionList {
+  display: inline-flex;
+  width: 86%;
+  border: 1px solid #fff;
+}
+
+.option {
+  display: inline-block;
+}
+
+.sort {
+  width: 14%;
+  background: none;
+  /* border: 1px solid #fff; */
+}

@@ -1,0 +1,52 @@
+.header {
+  min-width: 100%;
+  min-height: 100px;
+  position: relative;
+}
+
+.logo {
+  font-family: 'League Gothic', sans-serif;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+}
+
+.logo img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.myPage, .search {
+  position: absolute;
+  display: inline-block;
+}
+
+.myPage, .search {
+  border: none;
+  background: none;
+}
+
+.myPage {
+  font-size: 0.9rem;
+  font-weight: 100;
+  height: 40px;
+  top: 0;
+  right: 25px;
+}
+
+.search {
+  height: 40px;
+  top: 50px;
+  right: 25px;
+}
+
+.logo, .myPage, .search:hover {
+  cursor: pointer;
+}
